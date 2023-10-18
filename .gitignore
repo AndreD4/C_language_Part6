@@ -31,3 +31,7 @@
 *.out
 *.app
 *.idx
+.codelite/ControllingProgramFlow-andre.tags
+build-Debug/ifStatement/ObjectsList.txt
+ifStatement/ifStatement.mk
+Makefile
