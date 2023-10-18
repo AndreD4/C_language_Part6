@@ -35,3 +35,5 @@
 
              if (num > 10)
                 ++num;
+    - If it's true, then num will be incremented. If it's false,
+      no increment will take place.
