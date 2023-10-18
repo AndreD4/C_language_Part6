@@ -35,3 +35,8 @@
 build-Debug/ifStatement/ObjectsList.txt
 ifStatement/ifStatement.mk
 Makefile
+ifElseStatement/ifElseStatement.project
+ifElseStatement/.clang-format
+ifElseStatement/.clangd
+ControllingProgramFlow.workspace
+.codelite/ControllingProgramFlow-andre.tags

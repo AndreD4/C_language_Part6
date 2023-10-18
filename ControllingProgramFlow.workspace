@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="ControllingProgramFlow" Database="" Version="10000">
-  <Project Name="ifStatement" Path="ifStatement/ifStatement.project" Active="Yes"/>
+  <Project Name="ifStatement" Path="ifStatement/ifStatement.project" Active="No"/>
+  <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Debug"/>
+      <Project Name="ifElseStatement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Release"/>
+      <Project Name="ifElseStatement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
