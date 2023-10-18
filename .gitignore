@@ -40,3 +40,10 @@ ifElseStatement/.clang-format
 ifElseStatement/.clangd
 ControllingProgramFlow.workspace
 .codelite/ControllingProgramFlow-andre.tags
+.codelite/ControllingProgramFlow-andre.tags
+.codelite/ControllingProgramFlow.session
+build-Debug/ifElseStatement/ObjectsList.txt
+compile_commands.json
+ifElseStatement/ifElseStatement.mk
+compile_commands.json
+compile_commands.json
