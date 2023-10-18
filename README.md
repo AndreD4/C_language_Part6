@@ -68,10 +68,59 @@
 
 * These variables are visible only within the block - local scope
 
+if-else Statement
+
+            if (expr)
+               stetement1;
+            else
+               statemnet2;
+
+* if the expression is true then execute statement1
+
+* if the expression is false the execute statement2
+
+            if (num > 10)
+               ++num;
+            else
+              num = 10;
+
+Example 
+
+           if (num > 10)
+           cout << "num is greater than 10";
+           else << "num is not great than 10";
 
 
+           if (health < 100 && heal_player)
+               health = 100;
+           else 
+             ++health;
 
+block statemnet
 
+             if (num > 10){
+             ++num;
+             cout << "increment"
+             } else {
+               num = 10;
+               cout << "reset";
+             }
+
+             
+             if (score > 90)
+              cout << "A";
+              else if (score > 80)
+               cout << "B";
+              else if (score > 70)
+               cout << "C";
+              else if (score > 60)
+               cout << "D";
+              else 
+               cout << "D";
+              else                // all others must be F
+                << "F";
+               cout << "Done";
+         
 
 
 
