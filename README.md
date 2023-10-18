@@ -9,3 +9,16 @@
 
  * Iletraion
    - Looping or repeating
+
+# Ileration - Looping
+ * for loop
+
+ * Range-base for loop
+
+ * while loop
+
+ * do-while loop continue and break
+
+ * infinite loops
+
+ * Nested loops
