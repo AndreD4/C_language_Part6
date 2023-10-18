@@ -120,10 +120,58 @@ block statemnet
               else                // all others must be F
                 << "F";
                cout << "Done";
-         
+
+# Nested if Statement
+
+             if (expr1)
+              if (expr2)
+               statement1;
+              else 
+               statement
+
+* if statement is nested with another
+
+* Allows testing of multiple conditions
+
+* else belongs to the closest if
+
+Example
 
 
+            if (score > 90)
+             if (score >95)
+              cout << "A+";
+             else 
+              cout << "A"; 
 
+    ================================
+              
+             else 
+              cout << "Sorry , No A";
+              
+    ==================================
+    
+            if (score_frank != score_billy) 
+            {
+              if (score_frank > socre_billy) 
+               {
+               cout << "Frank wins" << endl;
+               } 
+            else
+              {
+               cout << "billy wins" << endl;
+              }
+            }
+             else 
+             {
+               cout << "Looks like a tie " << endl;
+             }
+            
+             
+
+  
+
+  
 
 
 
