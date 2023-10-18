@@ -22,3 +22,16 @@
  * infinite loops
 
  * Nested loops
+
+# if Statement
+
+             if (expr1)
+               statement;
+
+ * if the expression is true then execute the statement.
+
+ * if the expression is false then skip the statement.
+
+
+             if (num > 10)
+                ++num;
