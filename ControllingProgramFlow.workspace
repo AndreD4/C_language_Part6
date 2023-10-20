@@ -2,19 +2,19 @@
 <CodeLite_Workspace Name="ControllingProgramFlow" Database="" Version="10000">
   <Project Name="ifStatement" Path="ifStatement/ifStatement.project" Active="No"/>
   <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="No"/>
-  <Project Name="NestedIfStatement" Path="NestedIfStatement/NestedIfStatement.project" Active="Yes"/>
+  <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Debug"/>
       <Project Name="ifElseStatement" ConfigName="Debug"/>
-      <Project Name="NestedIfStatement" ConfigName="Debug"/>
+      <Project Name="Grades" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Release"/>
       <Project Name="ifElseStatement" ConfigName="Release"/>
-      <Project Name="NestedIfStatement" ConfigName="Release"/>
+      <Project Name="Grades" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
