@@ -3,18 +3,21 @@
   <Project Name="ifStatement" Path="ifStatement/ifStatement.project" Active="No"/>
   <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="No"/>
   <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="Yes"/>
+  <Project Name="Shipping" Path="Shipping/Shipping.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Debug"/>
       <Project Name="ifElseStatement" ConfigName="Debug"/>
       <Project Name="Grades" ConfigName="Debug"/>
+      <Project Name="Shipping" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="ifStatement" ConfigName="Release"/>
       <Project Name="ifElseStatement" ConfigName="Release"/>
       <Project Name="Grades" ConfigName="Release"/>
+      <Project Name="Shipping" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
