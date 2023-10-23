@@ -2,8 +2,8 @@
 <CodeLite_Workspace Name="ControllingProgramFlow" Database="" Version="10000">
   <Project Name="ifStatement" Path="ifStatement/ifStatement.project" Active="No"/>
   <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="No"/>
-  <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="Yes"/>
-  <Project Name="Shipping" Path="Shipping/Shipping.project"/>
+  <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="No"/>
+  <Project Name="Shipping" Path="Shipping/Shipping.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
