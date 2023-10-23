@@ -22,9 +22,11 @@ int main()
             letter_grade = 'D';
         else 
             letter_grade = 'F';
+            
         cout << "Your grade is " << letter_grade << endl;
         if (letter_grade == 'F')
-            cout << "Sorry you must repeat this class" << endl;
+        cout << "Sorry you must repeat this class" << endl;
+    else
         cout << "Congrats you passed" << endl;
 
     }

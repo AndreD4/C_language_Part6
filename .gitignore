@@ -54,3 +54,5 @@ NestedIfStatement/.clang-format
 ControllingProgramFlow.workspace
 compile_commands.json
 .codelite/ControllingProgramFlow-andre.tags
+NestedIfStatement/main.cpp
+NestedIfStatement/Grades.mk
