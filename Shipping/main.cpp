@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -30,9 +31,25 @@ int main()
         }
     else
         {
-        cout << "XXX" << endl;
+        double package_cost{};
+        packages_volume = length * width * height;
+        package_cost = base_cost;
+        
+        if (packages_volume > tier2_threshold)
+            {
+                package_cost += package_cost * tier2_surcharge;
+                cout << "Adding tier 2 surchage" << endl;
+            }
+            else if (packages_volume > tier1_threshold)
+            {
+                package_cost += package_cost * tier1_surcharge;
+                cout << "Ading tier 1 surchage" << endl;
+            }
+        cout << fixed << setprecision(2); // print dollars nicely
+        cout << "the volume of your package is: " << packages_volume << endl;
+        cout << "Your package will cost $" << package_cost << " to ship " << endl;
         }
-    
+
     cout << endl;
     return 0;    
 }
