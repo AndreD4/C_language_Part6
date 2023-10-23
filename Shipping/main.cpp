@@ -24,9 +24,14 @@ int main()
     cout << "Enter length, width adn height of the package separated by spaces : ";
     cin >> length >> width >> height;
     
-    
-    
-    
+    if (length > max_dimension_length || width > max_dimension_length || height > max_dimension_length)
+        {
+        cout << "Sorry package rejected - dimension exceeded" << endl;
+        }
+    else
+        {
+        cout << "XXX" << endl;
+        }
     
     cout << endl;
     return 0;    
