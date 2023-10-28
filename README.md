@@ -167,10 +167,44 @@ Example
                cout << "Looks like a tie " << endl;
              }
             
-             
+# the Switch statement
+* the control expression must evaluate to an integer type
 
-  
+* the case expressions must be constant expressions that evaluate to integer or integer literals
 
+* Once a match occurs all following case sections are executed UNTIL a break is reached the switch complete
+
+* Best practice - provide break statement for each case
+
+* Best practice - default is optional, but should be handled.
+
+
+Example
+
+      switch (selection) {
+        case '1': cout << "1 selected";
+                   break;
+        case '2': cout << "2 selected";
+                   break;
+        case '3':
+        case '4': cout << "3 or 4 selected";
+                  break;
+        default: cout << "1,2,3,4 NOT selected";
+      
+      }
+
+Example with an enumeration
+
+     enum Color {red, green, blue};
+     Color screen_color {green};
+
+     switch (screen_color) {
+      case red: cout << "red"; break;
+      case green: cout << "green"; break:
+      case blue: cout << "blue"; break;
+      default:   cout << "should never execute";
+     
+     }
   
 
 
