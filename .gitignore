@@ -77,3 +77,6 @@ build-Debug/Switch/ObjectsList.txt
 SwitchEnum/.clang-format
 SwitchEnum/.clangd
 SwitchEnum/SwitchEnum.project
+build-Debug/SwitchEnum/ObjectsList.txt
+compile_commands.json
+SwitchEnum/SwitchEnum.mk
