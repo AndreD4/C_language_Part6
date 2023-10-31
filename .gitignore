@@ -71,3 +71,6 @@ compile_commands.json
 .codelite/ControllingProgramFlow.session
 .codelite/ControllingProgramFlow-andre.tags
 ControllingProgramFlow.workspace
+Switch/Switch.mk
+.codelite/ControllingProgramFlow-andre.tags
+build-Debug/Switch/ObjectsList.txt
