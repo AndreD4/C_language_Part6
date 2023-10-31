@@ -4,7 +4,8 @@
   <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="No"/>
   <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="No"/>
   <Project Name="Shipping" Path="Shipping/Shipping.project" Active="No"/>
-  <Project Name="Switch" Path="Switch/Switch.project" Active="Yes"/>
+  <Project Name="Switch" Path="Switch/Switch.project" Active="No"/>
+  <Project Name="SwitchEnum" Path="SwitchEnum/SwitchEnum.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="Grades" ConfigName="Debug"/>
       <Project Name="Shipping" ConfigName="Debug"/>
       <Project Name="Switch" ConfigName="Debug"/>
+      <Project Name="SwitchEnum" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="Grades" ConfigName="Release"/>
       <Project Name="Shipping" ConfigName="Release"/>
       <Project Name="Switch" ConfigName="Release"/>
+      <Project Name="SwitchEnum" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
