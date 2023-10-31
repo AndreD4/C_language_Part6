@@ -4,8 +4,8 @@
   <Project Name="ifElseStatement" Path="ifElseStatement/ifElseStatement.project" Active="No"/>
   <Project Name="Grades" Path="NestedIfStatement/NestedIfStatement.project" Active="No"/>
   <Project Name="Shipping" Path="Shipping/Shipping.project" Active="No"/>
-  <Project Name="Switch" Path="Switch/Switch.project" Active="No"/>
-  <Project Name="SwitchEnum" Path="SwitchEnum/SwitchEnum.project" Active="Yes"/>
+  <Project Name="Switch" Path="Switch/Switch.project" Active="Yes"/>
+  <Project Name="SwitchEnum" Path="SwitchEnum/SwitchEnum.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
