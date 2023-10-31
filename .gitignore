@@ -74,3 +74,6 @@ ControllingProgramFlow.workspace
 Switch/Switch.mk
 .codelite/ControllingProgramFlow-andre.tags
 build-Debug/Switch/ObjectsList.txt
+SwitchEnum/.clang-format
+SwitchEnum/.clangd
+SwitchEnum/SwitchEnum.project
