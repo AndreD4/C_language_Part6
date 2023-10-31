@@ -63,3 +63,10 @@ Shipping/.clangd
 Shipping/Shipping.project
 ControllingProgramFlow.workspace
 ControllingProgramFlow.workspace
+Switch/.clang-format
+Switch/.clangd
+Switch/Switch.project
+ControllingProgramFlow.workspace
+compile_commands.json
+.codelite/ControllingProgramFlow.session
+.codelite/ControllingProgramFlow-andre.tags
