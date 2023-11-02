@@ -90,3 +90,4 @@ ConditionalOperator/ConditionalOperator.project
 ControllingProgramFlow.workspace
 build-Debug/ConditionalOperator/ObjectsList.txt
 ConditionalOperator/ConditionalOperator.mk
+.codelite/ControllingProgramFlow-andre.tags
