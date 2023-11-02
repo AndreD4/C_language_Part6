@@ -212,7 +212,7 @@ Example with an enumeration
       (cond_expr) ? exprl : expr2
 
 * cond_expr evaluates to a boolean expression
-  - if cond_expr is true then the value of expr is returned
+  - if cond_expr is true then the value of expr1 is returned
   - if cond_expr is false then the value of expr2 is returned
  
 * Similar to if-else construct
@@ -222,6 +222,20 @@ Example with an enumeration
 * Very useful when used inline
 
 * Very is to abuse!
+
+Example 
+
+     int a{10}, b{20};
+     int score {92};
+     int result {};
+
+     result = (a > b) ? a : b;
+
+     result = (a < b) ? (b-a) : (a-b);
+
+     result (b != 0) ? (a/b) : 0;
+
+     cout << ((score > 90) ? "Excellent" : "Good ");
 
 
 
