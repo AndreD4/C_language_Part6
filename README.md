@@ -206,6 +206,29 @@ Example with an enumeration
      
      }
   
+# Conditional Operator
+* ?:
+
+      (cond_expr) ? exprl : expr2
+
+* cond_expr evaluates to a boolean expression
+  - if cond_expr is true then the value of expr is returned
+  - if cond_expr is false then the value of expr2 is returned
+ 
+* Similar to if-else construct
+
+* Ternary operator
+
+* Very useful when used inline
+
+* Very is to abuse!
+
+
+
+
+
+
+
 
 
 
