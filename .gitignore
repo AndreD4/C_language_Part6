@@ -81,3 +81,4 @@ build-Debug/SwitchEnum/ObjectsList.txt
 compile_commands.json
 SwitchEnum/SwitchEnum.mk
 ControllingProgramFlow.workspace
+.codelite/ControllingProgramFlow.session
