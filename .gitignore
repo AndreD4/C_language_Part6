@@ -103,3 +103,7 @@ forLooping/forLooping.project
 ControllingProgramFlow.workspace
 .codelite/ControllingProgramFlow-andre.tags
 compile_commands.json
+.codelite/ControllingProgramFlow-andre.tags
+build-Debug/forLooping/ObjectsList.txt
+ControllingProgramFlow.workspace
+forLooping/forLooping.mk
