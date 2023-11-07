@@ -22,10 +22,22 @@ int main()
 //            cout << i << endl;
 //    }
 
-    for (int i{1}, j{5}; i <= 5; ++i, ++j)
-        cout << i << " + " << j << " = " << (i+j) << endl;
+//    for (int i{1}, j{5}; i <= 5; ++i, ++j)
+//        cout << i << " + " << j << " = " << (i+j) << endl;
+
+//    for (int i {1}; i <= 100; ++i){
+//      cout << i;
+//        if (i % 10 == 0)
+//            cout << endl;
+//        else
+//            cout << " ";
+//        
+//    }
     
-    
+    for (int i {1}; i <= 100; ++i){
+      cout << i;
+        cout << ((i % 10 == 0) ? "\n" : " ");
+    }
     cout << endl;
     return 0;    
 }
