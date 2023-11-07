@@ -101,3 +101,5 @@ forLooping/.clang-format
 forLooping/.clangd
 forLooping/forLooping.project
 ControllingProgramFlow.workspace
+.codelite/ControllingProgramFlow-andre.tags
+compile_commands.json
