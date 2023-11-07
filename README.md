@@ -254,6 +254,7 @@ Some typical use-case
   - a specific number of times
   - for each element in a collection
   - while a specific condition becomes false
+  - while a specific condition becomes true
   - until we reach the end of some input stream
   - forever
   - many, many more
