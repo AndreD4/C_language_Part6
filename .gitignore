@@ -94,3 +94,10 @@ ConditionalOperator/ConditionalOperator.mk
 .codelite/ControllingProgramFlow-andre.tags
 .codelite/ControllingProgramFlow-andre.tags
 .codelite/ControllingProgramFlow.session
+.codelite/ControllingProgramFlow-andre.tags
+.codelite/ControllingProgramFlow.session
+ControllingProgramFlow.workspace
+forLooping/.clang-format
+forLooping/.clangd
+forLooping/forLooping.project
+ControllingProgramFlow.workspace
