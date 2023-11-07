@@ -34,10 +34,15 @@ int main()
 //        
 //    }
     
+//    for (int i {1}; i <= 100; ++i){
+//      cout << i;
+//        cout << ((i % 10 == 0) ? "\n" : " ");
+//    }
+////////////// same out come just in one line //////////////////
     for (int i {1}; i <= 100; ++i){
-      cout << i;
-        cout << ((i % 10 == 0) ? "\n" : " ");
+      cout << i << ((i % 10 == 0) ? "\n" : " ");
     }
+    
     cout << endl;
     return 0;    
 }
