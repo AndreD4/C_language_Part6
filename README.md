@@ -276,8 +276,92 @@ Some typical use-case
   - iterate while a condition remains true
   - stop when the condition becomes false
   - check the condition at the end of every iteration
-  
-  
+
+# for Loop
+
+    for (initialization ; condition ; increment)
+     statement
+
+    for (initialization ; condition ; increment) {
+     statement (s);
+    } 
+
+
+    int i {0};
+
+    for (i = 1 ; i <= 5 ; ++i)
+     cout << i << endl;
+
+    1
+    2
+    3
+    4
+    5
+
+    for (int i {1} ; 1 <= 5 ; ++i)
+     cout << i << endl;
+
+    for (int i 1 ; 1 <= 5 ; ++i)
+     cout << i << endl;
+    WARNING => // i = 100; // ERROR i only visible in the loop //
+
+ display even numbers
+
+    for (int i {1} : i <= 10; ++i) {
+     if (1 % 2 == 0)
+     cout << i << endl;
+    }
+
+    2
+    4
+    6
+    8
+    10
+
+array example 
+
+    int scores [] {100,90,87};
+
+    for (int i {0} ; i < 3 ; ++i){
+      cout << scores[i] << endl;
+    }
+
+    for (int i {0} ; i <=2 ; ++i){
+      cour << scores[i] << endl;
+    }
+    100
+    90
+    87
+
+comma operator
+          
+    for (int i {1}, j {5} ; i <= 5 ; ++i, ++j){
+     cout << i << " * " << j << " : " << (i * j) << endl;
+    }
+    1 * 5 : 5
+    2 * 6 : 12
+    3 * 7 : 21
+    4 * 8 : 32
+    5 * 9 : 45
+
+some other details.....
+
+* The basic for loop is very clear and concise
+
+* Since the for loops expressions are all optional, it is possible to have
+  - no initialization
+  - no test
+  - no increment
+
+        for (;;)
+          cout << "Endless loop" << endl;
+
+
+
+
+
+
+
 
 
 
