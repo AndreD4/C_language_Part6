@@ -356,11 +356,68 @@ some other details.....
         for (;;)
           cout << "Endless loop" << endl;
 
+# Ranged-based for Loop 
 
+Introduced in C++11
 
+    for (var_type var_name: sequence)
+    statement; // can use var_name
 
+    for (var_type var_name: sequence)
+    statement; // can use var_name
 
+    int scores [] {100,90,97};
 
+    for (int score : scores)
+     cout < score << endl;
+
+    10
+    90
+    97
+
+auto
+
+    for (auto score : scores)
+     cout < score << endl;
+
+    10
+    90
+    97
+
+vector
+
+    vector<double> temps {87.2, 77.1, 80.0, 72.5};
+
+    double average_temp {};
+    double running_sum {};
+
+    for (auto temp: temps)
+     running_sum += temp;
+
+    average_temp = running_sum / temps.size();
+
+ initializer list
+
+    double average_temp {};
+    double running_sum {};
+    int size {0};
+
+    for (auto temp: {60.2, 80.1, 90.0, 78.2} ) {
+     running_sum += temp;
+     ++size;
+    }
+    average_temp = running_sum / size;
+ 
+string 
+
+    for (auto c: "frank")
+     cout << c << endl;
+
+    f
+    r
+    a
+    n
+    k
 
 
 
