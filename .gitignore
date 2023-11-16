@@ -125,3 +125,6 @@ RangeBasedForLoop/RangeBasedForLoop.project
 compile_commands.json
 compile_commands.json
 ControllingProgramFlow.workspace
+RangeBasedForLoop/RangeBasedForLoop.mk
+.codelite/ControllingProgramFlow-andre.tags
+build-Debug/RangeBasedForLoop/ObjectsList.txt
