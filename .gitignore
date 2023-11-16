@@ -128,3 +128,5 @@ ControllingProgramFlow.workspace
 RangeBasedForLoop/RangeBasedForLoop.mk
 .codelite/ControllingProgramFlow-andre.tags
 build-Debug/RangeBasedForLoop/ObjectsList.txt
+.codelite/ControllingProgramFlow-andre.tags
+.codelite/ControllingProgramFlow.session
