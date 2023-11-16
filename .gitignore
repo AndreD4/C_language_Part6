@@ -122,3 +122,4 @@ ControllingProgramFlow.workspace
 RangeBasedForLoop/.clang-format
 RangeBasedForLoop/.clangd
 RangeBasedForLoop/RangeBasedForLoop.project
+compile_commands.json
