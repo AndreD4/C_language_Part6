@@ -149,3 +149,4 @@ ControllingProgramFlow.workspace
 WhileLoop/WhileLoop.mk
 build-Debug/WhileLoop/ObjectsList.txt
 .codelite/ControllingProgramFlow-andre.tags
+.codelite/ControllingProgramFlow.session
