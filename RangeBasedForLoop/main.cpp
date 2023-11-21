@@ -28,9 +28,15 @@ int main()
 //        cout << val << endl;
 
 
-    for (auto c: "this is a test")
-        cout << c;
-
+//    for (auto c: "this is a test")
+//            cout << c;
+    
+//    for (auto c: "this is a test")
+//        if(c == ' ')
+//            cout << "\t";
+//            else
+//                cout << c;
+        
     
         
         
