@@ -419,6 +419,97 @@ string
     n
     k
 
+# While Loop
+
+    while (expression)
+     statement;
+
+    while (expression) {
+     statement (s);
+    }
+
+Example
+
+    int i {1};
+
+    while (i <= 5) {
+     cout << i << endl;
+      ++i; // important
+    }
+
+    1
+    2
+    3
+    4
+    5
+    
+Even numbers
+
+    int i {1}
+
+    wwhile (i <= 10) {
+     if (1 % 2 == 0)
+      cout << i << endl;
+      ++i;
+    }
+
+    2
+    4
+    6
+    8
+    10
+
+array example
+
+    int score [] {100, 90, 87};
+    int i {0};
+
+    while (i < 3){
+    cout << scores [i] << endl;
+    ++i
+    }
+
+    100
+    90
+    87
+
+input validation
+
+    int number {};
+
+    cout << "Enter an integer less than 100: ";
+    cin >> number;
+
+    while (number >= 100) { // !(number < 100)
+     cout << "Enter an integer less than 100";
+     cin >> number;
+    }
+
+     cout << "Thanks" << endl;
+
+input validation - boolean flag
+
+    bool done {false}
+    int number {0};
+
+    while (!done) {
+     cout << "Enter an integer between 1 and 5: ";
+     cin >> number;
+     if (number <= 1 || number >= 5)
+     cout << "out of range, try again" << endl;
+     else{
+      cout << "Thanks" << endl;
+      done = true;
+     }
+    }
+
+
+
+
+
+
+
+
 
 
 
