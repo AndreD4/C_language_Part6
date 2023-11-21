@@ -138,3 +138,9 @@ ControllingProgramFlow.workspace
 ControllingProgramFlow.workspace
 .codelite/ControllingProgramFlow-andre.tags
 .codelite/ControllingProgramFlow-andre.tags
+WhileLoop/WhileLoop.project
+WhileLoop/.clangd
+WhileLoop/.clang-format
+ControllingProgramFlow.workspace
+compile_commands.json
+.codelite/ControllingProgramFlow-andre.tags
