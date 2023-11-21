@@ -11,18 +11,21 @@ int main()
 //    for (int scores: scores)
 //        cout << scores << endl;
 
-    vector<double> temperatures {87.9, 77.9, 80.0, 72.5};
-    double average_temp {};
-    double total {};
-    
-    for (auto temp: temperatures)
-        total += temp;
-        
-    if (temperatures.size() != 0)
-        average_temp = total / temperatures.size();
-    
-    cout << fixed << setprecision(1);
-    cout << "Average temperature is " << average_temp << endl;
+//    vector<double> temperatures {87.9, 77.9, 80.0, 72.5};
+//    double average_temp {};
+//    double total {};
+//    
+//    for (auto temp: temperatures)
+//        total += temp;
+//        
+//    if (temperatures.size() != 0)
+//        average_temp = total / temperatures.size();
+//    
+//    cout << fixed << setprecision(1);
+//    cout << "Average temperature is " << average_temp << endl
+
+    for (auto val: {1,2,3,4,5})
+        cout << val << endl;
     
         
         
