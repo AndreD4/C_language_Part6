@@ -24,8 +24,13 @@ int main()
 //    cout << fixed << setprecision(1);
 //    cout << "Average temperature is " << average_temp << endl
 
-    for (auto val: {1,2,3,4,5})
-        cout << val << endl;
+//    for (auto val: {1,2,3,4,5})
+//        cout << val << endl;
+
+
+    for (auto c: "this is a test")
+        cout << c;
+
     
         
         
